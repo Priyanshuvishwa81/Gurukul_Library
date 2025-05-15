@@ -28,6 +28,7 @@ Follow these instructions to run the project locally:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/gurukul-library.git
+git clone [https://github.com/your-username/gurukul-library.git](https://github.com/Priyanshuvishwa81/Gurukul_Library.git)
 cd gurukul-library
+npm install
 npm run start
