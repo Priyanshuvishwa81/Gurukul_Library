@@ -1,0 +1,23 @@
+/* ToolTip.css */
+
+.tooltip {
+    position: absolute;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ccc;
+    padding: 8px;
+    color: blueviolet;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+  }
+  
+  .tooltiptext {
+    max-width: 300px;
+    background-color: red;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

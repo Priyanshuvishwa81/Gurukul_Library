@@ -1,0 +1,186 @@
+
+.fee_Receipt_outer {
+    height: 100vh;
+    width: 100vw;
+    /* z-index:2; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    opacity: 0;
+    align-items: center;
+    box-sizing: border-box;
+    /* background-color: transparent; */
+
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+a:active{
+    color:#999999;
+}
+
+.fee_receipt_inner {
+    height: 30rem;
+    width: 45rem;
+    background: #ecb1a2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+    margin-top: 8rem;   
+    position: relative;
+    box-shadow:  1px 1px 6px 0px black;
+}
+
+.fee_receipt_inner_top {
+    width: 100%;
+    height: 30%;
+    /* background-color: #c7a5a5; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.fee_receipt_inner_middle {
+    width: 100%;
+    height: 10%;
+    /* background-color: #3748b9; */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.fee_receipt_inner_bottom {
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+
+}
+
+.fee_receipt_inner_bottom_inner {
+    float: left;
+    width: 100%;
+    height: 13%;
+    /* background-color: #746161; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.sides {
+    float: left;
+    font-size: 1rem;
+}
+
+.lft {
+
+    font-weight: 600;
+    width: 50%;
+}
+
+.rht {
+    width: 50%;
+    font-weight: 300;
+}
+
+.rupees {
+    height: 100%;
+    border: 1px solid rgb(95, 75, 75);
+    width: 40%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: .9rem;
+}
+
+.cross {
+    z-index: 9;
+    height: 7%;
+    width: 10%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: blue; */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: large;
+}
+.print{
+    z-index: 9;
+    height: 7%;
+    width: 10%;
+    padding: 2%;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: blue; */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size:large;
+}
+
+.print:hover {
+    color: rgb(187, 59, 59);
+}
+.cross:hover {
+    color: rgb(187, 59, 59);
+}
+
+.fee_receipt_inner_borders {
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 1px 1px 6px 0px black;
+}
+
+
+
+@media screen and (max-width:320px) and (min-width:200px) {
+ 
+
+    .fee_receipt_inner {
+        width: 20rem;
+        height: 20rem;
+    }
+    .sides {
+        font-size: .6rem;
+    }
+    .rupees{
+        font-size: .6rem;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:320px) {
+  
+
+    .fee_receipt_inner {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .sides {
+        font-size: .7rem;
+    }
+
+}
+
+
+@media screen and (max-width:1000px) and (min-width:700px) {
+   
+    .fee_receipt_inner {
+        width: 40rem;
+        height: 28rem;
+    }
+    .sides {
+        font-size: .9rem;
+    }
+    .rupees{
+        font-size: .6rem;
+    }
+}
+
